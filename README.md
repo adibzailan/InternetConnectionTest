@@ -1,61 +1,76 @@
-# InternetConnectionTest
+# 🚀 InternetConnectionTest
 
-InternetConnectionTest is a Python script that measures and categorizes your internet connection speed using the Speedtest.net infrastructure.
+Hey there! Welcome to InternetConnectionTest, a nifty Python script that gives you the lowdown on your internet connection speed using Speedtest.net's awesome infrastructure.
 
-## Features
+## ✨ What's Cool About It?
 
-- Measures download and upload speeds
-- Calculates ping
-- Categorizes speeds as "Bad", "Normal", or "Good"
-- Provides clear, formatted output of results
+- 📥 Measures download speeds
+- 📤 Measures upload speeds
+- 🏓 Calculates ping
+- 🏷️ Categorizes speeds from "Very Poor" to "Excellent"
+- 📊 Serves up a clear, easy-to-read output
 
-## Requirements
+## 🛠️ What You'll Need
 
-- Python 3.x
-- speedtest-cli library
+- Python 3.x (because who's using 2.x anymore, right?)
+- speedtest-cli library (the real MVP)
 
-## Installation
+## 🚀 Getting Started
 
-1. Clone this repository:
+1. Clone this bad boy:
+   
    ```
    git clone https://github.com/adibzailan/internet_connection_test.git
    ```
 
-2. Navigate to the project directory:
+2. Hop into the project folder:
+   
    ```
    cd internet_connection_test
    ```
 
-3. Install the required package:
+3. Install the star of the show:
+   
    ```
    pip install speedtest-cli
    ```
 
-## Usage
+## 🎬 Lights, Camera, Action!
 
-Run the script from the command line:
+Fire it up from your command line:
 
 ```
-python internet_connection_test.py
+python run-internet_connection_test.py
 ```
 
-The script will perform the following steps:
-1. Find the best server based on ping
-2. Test download speed
-3. Test upload speed
-4. Display results, including:
-   - Download speed (Mbps)
-   - Upload speed (Mbps)
-   - Ping (ms)
-   - Speed categories for both download and upload
+Here's what'll go down:
 
-## Speed Categories
+1. Find the server with the best ping (because we're not savages)
+2. Test your download speed (crossing fingers for you)
+3. Test your upload speed (for all you content creators out there)
+4. Show off the results, including:
+   - Download speed (in Mbps, because bits are so last century)
+   - Upload speed (also in Mbps, consistency is key)
+   - Ping (in ms, for the gamers among us)
+   - Speed categories for download, upload, and ping
+   - An overall connection rating (drum roll, please)
+   - How long the test took (because time is money, friend)
 
-Speeds are categorized as follows:
-- Bad: < 5 Mbps
-- Normal: 5-25 Mbps
-- Good: > 25 Mbps
+## 🏎️ Speed Categories
 
-## License
+We've gone all out with the categories:
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+- Very Poor: < 10 Mbps (time to call your ISP?)
+- Poor: 10-25 Mbps (could be worse, could be better)
+- Fair: 25-50 Mbps (not too shabby)
+- Good: 50-100 Mbps (now we're talking)
+- Very Good: 100-500 Mbps (living the high-speed life)
+- Excellent: > 500 Mbps (are you at NASA?)
+
+Ping categories are in there too, from "Excellent" to "Poor". Because latency matters!
+
+## 📜 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for all the legal jazz. But basically, do what you want with it (just don't blame us if anything goes wrong, okay?).
+
+Now go forth and test that internet speed! 🚀
