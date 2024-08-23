@@ -1,6 +1,6 @@
-# 🚀 InternetConnectionTest
+# 🚀 Internet Connection Test
 
-Hey there! Welcome to InternetConnectionTest, a nifty Python script that gives you the lowdown on your internet connection speed using Speedtest.net's awesome infrastructure.
+Hey there, welcome! Here's a nifty Python script that gives you the lowdown on your internet connection speed using Speedtest.net's awesome infrastructure.
 
 ## ✨ What's Cool About It?
 
